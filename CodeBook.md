@@ -7,10 +7,12 @@
 
 #### Code Book
 as pr instructions for project: "code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called"
-The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
 
 run_analysis.R  performs the 5 steps described in the course project's definition.
 run_analysis.R is pretty well commented, so it should be adviced to read through the code and comments, but as requested here I will outline the basic steps and "codebook"
+
+The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
+
 
 Assignment is to:  "You should create one R script called run_analysis.R that does the following:""
 
@@ -36,18 +38,18 @@ The output file is called  averages_data.txt , and uploaded to this repository.
 
 
 #### Variables
-•  x_train ,  y_train ,  x_test ,  y_test ,  subject_train  and  subject_test  contain the data from the downloaded files as part of the date for the project.
-•  x_data ,  y_data  and  subject_data  is the parte where we have merge the previous datasets for further analysis.
-•  features  contains the correct names for the  x_data  dataset, which are applied to the column names stored in  mean_and_std_features , a numeric vector used to xtract the desired data.
-• A similar approach is taken with activity names through the  activities  variable.
-•  all_data  merges  x_data ,  y_data  and  subject_data  in a one tidy dataset.
-• averages_data contains the relevant averages which will be later stored in a  .txt  file.  ddply()  from the plyr package is used to apply  colMeans()  and ease the development.
+*  x_train ,  y_train ,  x_test ,  y_test ,  subject_train  and  subject_test  contain the data from the downloaded files as part of the date for the project.
+*  x_data ,  y_data  and  subject_data  is the parte where we have merge the previous datasets for further analysis.
+*  features  contains the correct names for the  x_data  dataset, which are applied to the column names stored in  mean_and_std_features , a numeric vector used to xtract the desired data.
+* A similar approach is taken with activity names through the  activities  variable.
+*  all_data  merges  x_data ,  y_data  and  subject_data  in a one tidy dataset.
+* averages_data contains the relevant averages which will be later stored in a  .txt  file.  ddply()  from the plyr package is used to apply  colMeans()  and ease the development.
 
 
-#### How to use / run   "run_analysis.R "
-Open R studio
-Open file "run_analysis.R"
-Run R file.
+#### How to use / run   "run_analysis.R"
+Open R studio  
+Open file "run_analysis.R"  
+Run R file.  
 
 
 
