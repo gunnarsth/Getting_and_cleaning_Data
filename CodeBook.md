@@ -1,12 +1,11 @@
 
 
-### Coursera
-#### Getting and Cleaning Data
-#### Course Project
+## Coursera
+### Getting and Cleaning Data - Course Project
 
 
 
-### Introduction
+### Code Book
 run_analysis.R  performs the 5 steps described in the course project's definition.
 
 You should create one R script called run_analysis.R that does the following. 

@@ -1,4 +1,7 @@
 
+
+## Coursera
+### Getting and Cleaning Data - Course Project
 #Project assignment
 #https://class.coursera.org/getdata-013/human_grading/view/courses/973500/assessments/3/submissions
 #  You should create one R script called run_analysis.R that does the following. 
