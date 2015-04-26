@@ -12,14 +12,12 @@ run_analysis.R  performs the 5 steps described in the course project's definitio
 run_analysis.R is pretty well commented, so it should be adviced to read through the code and comments, but as requested here I will outline the basic steps and "codebook"
 
 The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
-
+Requirement package: library(plyr)
 
 Assignment is to:  "You should create one R script called run_analysis.R that does the following:""
 
 1) Merges the training and the test sets to create one data set.  
 For this data is mergered using the rbind () function.   
-Requirement package: library(plyr)
-
 
 2) Extracts only the measurements on the mean and standard deviation for each measurement.   
 Only columns with mean and standard deviation measures are taken from the whole dataset   
