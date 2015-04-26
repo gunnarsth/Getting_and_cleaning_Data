@@ -1,11 +1,11 @@
 
 
-## Coursera
-### Getting and Cleaning Data - Course Project
+### Coursera
+#### Getting and Cleaning Data - Course Project
 
 
 
-### Code Book
+#### Code Book
 run_analysis.R  performs the 5 steps described in the course project's definition.
 
 You should create one R script called run_analysis.R that does the following. 
@@ -28,7 +28,7 @@ The output file is called  averages_data.txt , and uploaded to this repository.
 
 
 
-### Variables
+#### Variables
 •  x_train ,  y_train ,  x_test ,  y_test ,  subject_train  and  subject_test  contain the data from the downloaded files as part of the date for the project.
 •  x_data ,  y_data  and  subject_data  is the parte where we have merge the previous datasets for further analysis.
 •  features  contains the correct names for the  x_data  dataset, which are applied to the column names stored in  mean_and_std_features , a numeric vector used to xtract the desired data.
